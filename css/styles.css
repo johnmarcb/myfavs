@@ -1,3 +1,14 @@
+body {
+    max-width: 500;
+    margin: auto;
+    background: white;
+    padding: 10px;
+    
+}
+
+
+
+
 table {
     width: 100%;
 }

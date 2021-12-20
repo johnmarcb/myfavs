@@ -1,2 +1,2 @@
 # myfavs
-Devslopes module 1 assignment My Favourites
+This is my 1st Devslopes Module 1 assignment!
