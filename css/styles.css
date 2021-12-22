@@ -1,18 +1,39 @@
+
+
+
 body {
+    font-family: Helvetica;
     max-width: 500;
     margin: auto;
     background: white;
     padding: 10px;
+    color: black;
     
 }
 
 
 
 
-table {
+table, th {
+    table-layout: fixed;
     width: 100%;
 }
 
 table, th, tr, td {
     border: 1px solid black;
+}
+
+table{
+    style=border:left: auto;margin-right:auto;
+}
+
+h4{
+    text-align: center;
+}
+
+img.thumbnail {
+    width: 100px;
+    height: 100px
+   
+    
 }
