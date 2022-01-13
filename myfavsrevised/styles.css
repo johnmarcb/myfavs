@@ -1,17 +1,89 @@
-body{
-    width: 100%;
-    margin-left: 50%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 20px;
-    text-align: center;
+/*
+Add a border of your choice to all table, th, tr, td elements.
+Add a 10px padding to the right and left of every <td> element using the padding shorthand method.
+Add a max width to all images so all the table cells display more evenly.
+Make all the table cells an even width.
+Make all the text in your ordered lists in the "Fav" column red
+Make all the text in your ordered lists in the "Not Fav" column blue.
+Add a font color and background color of your choice to the table headers.
+Add rounded corners to all your images
+*/
+body {
+  max-width: 100%;
+  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  text-align: center;
 }
-table, th, td{
-    width: 100%;
-    max-width: 50%;
-    border: 1px;
-    border: solid;
-    border-color: rgba(1, 1, 1, 1);
+table,
+th,
+td {
+  max-width: 100%;
+  width: 50%;
+  border: 100px;
+  border: groove;
+  border-color: rgba(1, 1, 1, 1);
 }
-img{
-    max-width: 100px;
+table {
+  max-width: 100%;
+  margin-top: 100px;
+}
+td,
+th,
+table {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+td:hover,
+th:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.9);
+  transform: scale(1.01);
+}
+
+img {
+  margin-bottom: 10px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+h3 {
+  width: fit-content;
+  background: #cccccc;
+  border-radius: 50px;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 1;
+  margin-left: 15px;
+  color: #fff;
+  padding: 2px 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+h2,
+.favhead,
+.notfavhead {
+  text-align: center;
+  color: #fff;
+}
+li {
+  font-size: 14px;
+  text-align: left;
+}
+.favs {
+  color: #ff3735;
+}
+.notfavs {
+  color: #47bcd4;
+}
+.favtitle,
+.favheadcontainer {
+  background-color: #ff3735;
+}
+.notfavtitle,
+.notfavheadcontainer {
+  background-color: #47bcd4;
 }
